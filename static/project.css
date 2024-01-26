@@ -1,0 +1,324 @@
+body{
+  display: flex;
+  flex-direction: column;
+  height: 5000px;
+}
+@font-face {
+  font-family: 'gg sans';
+  src: url('../fonts/gg-sans/gg\ sans\ Bold.ttf');
+}
+@font-face {
+  font-family: 'gg sans2';
+  src: url('../fonts/gg-sans/gg\ sans\ Medium.ttf');
+}
+@font-face {
+  font-family: 'ABC Ginto Nord';
+  width: 500px;
+  src: url(../fonts/ginto/ABCGintoNord-Bold.otf);
+}
+@font-face {
+  font-family: 'ABC ginto normal';
+  src: url('../fonts/ginto/ABCGintoNormal-Black.otf');
+}
+.first-page{
+  flex: 1.5;
+  background-image:url('../images/backgroundImages.svg');
+  background-color: #404eed;
+  background-size: cover;
+}
+.nav-bar{
+  display: flex;
+  flex-direction: row;
+}
+.left-section{
+  flex: 1;
+}
+.discord-logo{
+  width: 120px;
+  padding-left:100px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.middle-section{
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 300px; 
+  margin-top: 15px;
+}
+.middles-section-button{
+  font-family: 'gg sans2';
+  font-size:16px;
+  color: white;
+  padding-left: 40px;
+  cursor: pointer;
+}
+.middles-section-button:hover{
+  text-decoration: underline;
+}
+.open-Discord-button{
+  font-family: 'gg sans2';
+  color: black;
+  background-color: white;
+  border-radius: 50px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  margin-top: 20px;
+  margin-right: 100px;
+  cursor: pointer;
+}
+.open-Discord-button:hover{
+  color: #404eed;
+  box-shadow:  -3px 5px 20px  #2636e9;
+}
+
+.first-info{
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  
+}
+.first-page-pictureleft {
+  width: 500px;
+  margin-top: 240px;
+  margin-left: -100px;
+}
+.first-page-pictureright{
+  width: 500px;
+  margin-top: 200px;
+  margin-left: -200px;
+}
+
+.text1-part1{
+  font-family: 'ABC ginto normal';
+  font-size: 56px;
+  width: 700px;
+  color: white;
+  line-height: 60px;
+  margin-left: 50px;
+  margin-bottom: 0;
+  margin-top: 100px;
+}
+.text1-part2{
+  font-family: 'gg sans2';
+  color: white;
+  font-size: 20px;
+  width: 800px;
+  margin-left: -30px; 
+}
+.second-open-discord,
+.first-download-button{
+  font-family: 'gg sans2';
+  font-size: 20px;
+  color: black;
+  background-color: white;
+  border-radius: 50px;
+  border: none;
+  padding: 20px 30px;
+
+}
+.second-open-discord{
+  color: white ;
+  background-color: #23272a;
+  margin-left: 40px;
+}
+.second-page{
+  flex: 2;
+  background-color: white;
+}
+.four-info,
+.third-info,
+.second-info{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  margin-top: 100px;
+}
+.second-picture{
+  padding-left: 150px;
+  padding-top: 10px;
+  width: 700px;
+}
+
+.second-text{
+  margin-top: 10px;
+  margin-left: 110px;
+  
+}
+.third-page{
+  flex: 2;
+  background-color:#f6f6f6;
+}
+
+.third-picture{
+  width: 700px;
+  margin-right: 100px;
+}
+.third-text{
+  margin-top: 10px;
+  margin-left: 210px;
+}
+.text2-part1,
+.text4-part1,
+.text3-part1{
+  font-family: 'gg sans';
+  font-size: 56px;
+  font-weight: bold;
+  width: 500px;
+  margin-bottom: 0;
+  line-height: 60px;
+}
+.discord-servers,
+.text4-part2,
+.text3-part2
+{
+  font-family: 'gg sans2';
+  font-size: 20px;
+  width: 400px;
+  line-height: 40px;
+}
+.page-four{
+  flex: 2;
+  background-color: white;
+}
+
+.four-picture{
+    width: 690px;
+    padding-left: 150px;
+  }
+.four-text{ 
+   padding-top: 80px;
+   padding-left: 100px;
+}
+
+.page-five{
+  flex: 2;
+  background-color:  #f6f6f6;
+}
+
+.five-info{
+  display: grid;
+  grid-template-rows:1fr 700px 1fr ;
+}
+
+.text5-part1{
+  font-family: 'ABC ginto normal';
+  margin-top: 100px;
+  margin-left: 260px;
+  font-size: 56px;
+  font-weight: bolder;
+  margin-bottom: 0;
+}
+.text5-part2{
+  font-family: 'gg sans2';
+   margin-left: 200px;
+  font-size: 25px;
+  width:1300px;
+  line-height: 40px;
+  margin-bottom: 0;
+}
+
+.five-picture{
+ 
+  width: 1300px;
+  padding-left: 100px;
+  height: 730px;
+}
+.button-text{
+  background-image: url(../images/sparkles.svg);
+  background-repeat: no-repeat;
+  background-position: 500px 10px;
+  background-size: 500px;
+}
+.ready-text{
+  font-family: 'gg sans';
+  margin-left: 550px;
+  margin-top: 50px;
+  font-size: 32px;
+  
+}
+.download-button{
+  color:white;
+  background-color: #404eed;
+  border-radius: 50px;
+  border: none;
+  padding: 20px  40px;
+  margin-left: 600px;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+.page-six{
+  background-color:#23272a;
+}
+.page-six-border{
+ 
+  height: 700px;
+}
+.six-info{
+  display: flex;
+  flex-direction: row;
+}
+.language-socialMedia{
+  
+  width: 400px;
+  color: white;
+  margin-top: 100px;
+  margin-left: 200px;
+  font-family: 'gg sans';
+  font-size: 20px;
+}
+.language{
+  display: flex;
+  flex-direction: row;
+}
+.socialMedia{
+  width: 30px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.USA-flag{
+  margin-top: 25px;
+  width: 30px;
+  height: 20px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.last-page-text{
+  flex: 1;
+}
+.product{
+  color: #404eed;
+  font-family: 'gg sans2';
+  margin-top:100px;
+}
+.links{
+  color: white;
+  font-family: 'gg sans2';
+  cursor: pointer;
+}
+.links:hover{
+  text-decoration: underline;
+}
+.bottom-section{
+  height: 100px;;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 40px;
+}
+.discord-logo2{
+  width: 150px;
+  margin-left: 200px;
+  cursor: pointer;
+}
+.open-discord-button2{
+    font-family: 'gg sans2';
+     color: white;
+     background-color: #404eed;
+     border-radius: 50px;
+     padding: 15px 25px;
+     margin-left: 500px;
+     border:none;
+}
